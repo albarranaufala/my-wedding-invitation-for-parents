@@ -12,7 +12,7 @@
 
 <body class="bg-gray-200">
     <div class="max-w-lg mx-auto h-screen p-5 overflow-hidden">
-        <div class="swiper mySwiper h-full w-full">
+        <div class="swiper main-swiper h-full w-full">
             <div class="swiper-wrapper h-full w-full">
                 <div class="swiper-slide h-full w-full rounded-3xl bg-[#621C1C] text-[#EBA466] shadow-lg relative">
                     <img src="./img/ornamen1.png" alt="Ornamen Top" class="absolute left-0 top-0 w-3/4">
@@ -83,7 +83,68 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide h-full w-full rounded-3xl bg-red-900">Slide 4</div>
+                <div class="swiper-slide h-full w-full rounded-3xl bg-[#621C1C] shadow-lg relative">
+                    <img src="./img/ornamen1.png" alt="Ornamen Top" class="absolute left-0 top-0 w-3/4">
+                    <img src="./img/ornamen2.png" alt="Ornamen Bottom" class="absolute right-0 bottom-0 w-3/4">
+                    <div class="relative px-10 pt-20 font-afacad flex flex-col h-full">
+                        <h1 class="flex-shrink-0 font-abril-fatface text-[40px] text-center text-[#EBA466]">
+                            UCAPAN
+                        </h1>
+
+                        <input type="text" placeholder="Masukkan nama Anda"
+                            class="w-full mt-20 p-3 flex-shrink-0 rounded-lg bg-white border border-[#B7B7B7] font-semibold">
+                        <textarea rows="4" placeholder="Masukkan nama Anda"
+                            class="w-full mt-2 p-3 flex-shrink-0 rounded-lg bg-white border border-[#B7B7B7] font-semibold"></textarea>
+                        <button class="bg-[#CC884D] text-white font-semibold p-4 rounded-lg w-full mt-2 flex-shrink-0">
+                            Kirim Ucapan
+                        </button>
+
+                        <div class="mt-8 flex-1 flex flex-col min-h-0 overflow-hidden">
+                            <div class="flex-1 min-h-0 greeting-swiper relative">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide !h-fit bg-white rounded-lg p-3">
+                                        <p class="text-[#CC884D]">Cristiano Ronaldo</p>
+                                        <p class="text-[#615F5F]">
+                                            Selamat atas pernikahannya! Semoga menjadi keluarga yang sakinah mawaddah
+                                            warrahmah.
+                                        </p>
+                                    </div>
+                                    <div class="swiper-slide !h-fit bg-white rounded-lg p-3">
+                                        <p class="text-[#CC884D]">Cristiano Ronaldo</p>
+                                        <p class="text-[#615F5F]">
+                                            Selamat atas pernikahannya! Semoga menjadi keluarga yang sakinah mawaddah
+                                            warrahmah.
+                                        </p>
+                                    </div>
+                                    <div class="swiper-slide !h-fit bg-white rounded-lg p-3">
+                                        <p class="text-[#CC884D]">Cristiano Ronaldo</p>
+                                        <p class="text-[#615F5F]">
+                                            Selamat atas pernikahannya! Semoga menjadi keluarga yang sakinah mawaddah
+                                            warrahmah.
+                                        </p>
+                                    </div>
+                                    <div class="swiper-slide !h-fit bg-white rounded-lg p-3">
+                                        <p class="text-[#CC884D]">Cristiano Ronaldo</p>
+                                        <p class="text-[#615F5F]">
+                                            Selamat atas pernikahannya! Semoga menjadi keluarga yang sakinah mawaddah
+                                            warrahmah.
+                                        </p>
+                                    </div>
+                                    <div class="swiper-slide !h-fit bg-white rounded-lg p-3">
+                                        <p class="text-[#CC884D]">Cristiano Ronaldo</p>
+                                        <p class="text-[#615F5F]">
+                                            Selamat atas pernikahannya! Semoga menjadi keluarga yang sakinah mawaddah
+                                            warrahmah.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="absolute z-50 inset-x-0 bottom-0 h-40 bg-gradient-to-b from-[#621C1C]/0 to-[#621C1C]/100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -91,9 +152,21 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script>
-        var swiper = new Swiper(".mySwiper", {
+        var swiper = new Swiper(".main-swiper", {
             effect: "cards",
             grabCursor: true,
+        });
+
+        var greetingSwiper = new Swiper(".greeting-swiper", {
+            direction: "vertical",
+            slidesPerView: "auto",
+            spaceBetween: 8,
+            freeMode: true,
+            loop: true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
         });
     </script>
 </body>
