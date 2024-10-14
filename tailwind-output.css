@@ -833,6 +833,10 @@ video {
   font-weight: 600;
 }
 
+.leading-tight{
+  line-height: 1.25;
+}
+
 .tracking-\[8\%\]{
   letter-spacing: 8%;
 }
