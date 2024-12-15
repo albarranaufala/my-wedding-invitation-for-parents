@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Albarra & Hersa</title>
+    <title>The Wedding of Albarra & Hersa</title>
+
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="./tailwind-output.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -14,7 +16,8 @@
     <div class="max-w-lg mx-auto h-dvh p-5 overflow-hidden">
         <div class="swiper main-swiper h-full w-full">
             <div class="swiper-wrapper h-full w-full">
-                <div class="swiper-slide h-full w-full rounded-3xl bg-[#621C1C] text-[#EBA466] shadow-lg relative">
+                <div
+                    class="swiper-slide swiper-first-slide h-full w-full rounded-3xl bg-[#621C1C] text-[#EBA466] shadow-lg relative">
                     <img src="./img/ornamen1.png" alt="Ornamen Top" class="absolute left-0 top-0 w-3/4">
                     <img src="./img/ornamen2.png" alt="Ornamen Bottom" class="absolute right-0 bottom-0 w-3/4">
                     <div class="relative flex flex-col items-center justify-center h-full">
@@ -42,7 +45,16 @@
                 <div class="swiper-slide h-full w-full rounded-3xl bg-white text-center text-[#CC884D]">
                     <img src="./img/ornamen3.png" alt="Ornamen Top" class="absolute left-0 top-0 w-1/3">
                     <img src="./img/ornamen4.png" alt="Ornamen Top" class="absolute right-0 top-0 w-1/3">
-                    <div class="h-full flex flex-col items-center justify-center px-12 py-20">
+                    <div class="h-full flex flex-col items-center justify-center px-12 py-20 relative">
+                        <p class="font-afacad">
+                            Dengan memohon Rahmat Allah SWT, merupakan kehormatan dan kebahagiaan kami apabila
+                            Bapak/Ibu/Saudara/i dapat memberikan doa dan restu dalam acara pernikahan anak kami:</p>
+                    </div>
+                </div>
+                <div class="swiper-slide h-full w-full rounded-3xl bg-white text-center text-[#CC884D]">
+                    <img src="./img/ornamen3.png" alt="Ornamen Top" class="absolute left-0 top-0 w-1/3">
+                    <img src="./img/ornamen4.png" alt="Ornamen Top" class="absolute right-0 top-0 w-1/3">
+                    <div class="h-full flex flex-col items-center justify-center px-12 py-20 relative">
                         <div class="flex flex-col items-center">
                             <p class="font-abril-fatface text-xl tracking-[2px]">ALBARRA NAUFALA ERDANTO</p>
                             <p class="font-afacad mt-5 text-sm">ANAK PERTAMA DARI BAPAK MUANTO & IBU ERNI CATUR DIANA
@@ -56,10 +68,6 @@
                             <p class="font-afacad mt-5 text-sm">ANAK KEEMPAT DARI BAPAK HUDY PRATOMO & IBU RAFIT NACIAH
                             </p>
                         </div>
-                        <p class="text-sm font-cedarville-cursive mt-10">
-                            Segala sesuatu Kami ciptakan berpasang-pasangan agar kamu mengingat (kebesaran Allah).<br>
-                            (Q.S. Adz-Dzariyat:49)
-                        </p>
                     </div>
                 </div>
                 <div class="swiper-slide h-full w-full rounded-3xl bg-white text-center text-[#CC884D]">
@@ -99,84 +107,109 @@
                 <div class="swiper-slide h-full w-full rounded-3xl bg-[#621C1C] shadow-lg relative">
                     <img src="./img/ornamen1.png" alt="Ornamen Top" class="absolute left-0 top-0 w-3/4">
                     <img src="./img/ornamen2.png" alt="Ornamen Bottom" class="absolute right-0 bottom-0 w-3/4">
+                    <div class="relative px-10 py-20 font-afacad flex flex-col h-full">
+                        <div class="flex-1 min-h-0 gift-parent-swiper relative">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide !h-auto">
+                                    <h1 class="flex-shrink-0 font-abril-fatface text-[32px] text-center text-[#EBA466]">
+                                        KADO PERNIKAHAN
+                                    </h1>
+                                    <p class="mt-4 text-sm text-white text-center">
+                                        Bagi keluarga, sahabat, serta kerabat yang ingin mengirimkan hadiah, dapat
+                                        dikirim
+                                        melalui:
+                                    </p>
+                                    <p class="mt-20 text-white text-center">
+                                        BANK BCA <br>
+                                        ALBARRA NAUFALA ERDANTO <br>
+                                        8610728465
+                                    </p>
+                                    <p class="mt-2 text-center">
+                                        <button type="button" class="bg-[#EBA466] text-white rounded px-4 py-2 text-xs"
+                                            onclick="copyToClipboard(this, '8610728465', 'SALIN REKENING', 'REKENING DISALIN', ['bg-gray-500'])">
+                                            SALIN REKENING
+                                        </button>
+                                    </p>
+                                    <p class="mt-8 text-white text-center">
+                                        BANK MANDIRI <br>
+                                        HERSA AJENG PRISKA <br>
+                                        1460011955148
+                                    </p>
+                                    <p class="mt-2 text-center">
+                                        <button type="button" class="bg-[#EBA466] text-white rounded px-4 py-2 text-xs"
+                                            onclick="copyToClipboard(this, '1460011955148', 'SALIN REKENING', 'REKENING DISALIN', ['bg-gray-500'])">
+                                            SALIN REKENING
+                                        </button>
+                                    </p>
+                                    <p class="mt-20 text-white text-center">
+                                        PENGIRIMAN KADO FISIK DAPAT DIKIRIM KE:<br>
+                                        Jl. Rajawali 3, Gang 3, No. 5, <br>
+                                        Manukan, Condongcatur, Depok, Sleman <br>
+                                        DI Yogyakarta 55581
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide h-full w-full rounded-3xl bg-[#621C1C] shadow-lg relative">
+                    <img src="./img/ornamen1.png" alt="Ornamen Top" class="absolute left-0 top-0 w-3/4">
+                    <img src="./img/ornamen2.png" alt="Ornamen Bottom" class="absolute right-0 bottom-0 w-3/4">
                     <div class="relative px-10 pt-20 font-afacad flex flex-col h-full">
                         <div class="flex-1 min-h-0 greeting-parent-swiper relative">
-                            <div class="swiper-wrapper">
+                            <form id="greetingForm" class="swiper-wrapper">
                                 <div class="swiper-slide !h-auto">
                                     <h1 class="flex-shrink-0 font-abril-fatface text-[40px] text-center text-[#EBA466]">
                                         UCAPAN
                                     </h1>
 
-                                    <input type="text" placeholder="Masukkan nama Anda"
-                                        class="block w-full mt-10 p-3 flex-shrink-0 rounded-lg bg-white border border-[#B7B7B7]">
-                                    <textarea rows="4" placeholder="Masukkan nama Anda"
-                                        class="block w-full mt-2 p-3 flex-shrink-0 rounded-lg bg-white border border-[#B7B7B7]"></textarea>
-                                    <button
-                                        class="bg-[#CC884D] text-white font-semibold p-4 rounded-lg w-full mt-2 flex-shrink-0">
+                                    <input type="hidden" name="action" value="create_greeting">
+                                    <input type="text" name="nama" required placeholder="Masukkan nama Anda"
+                                        class="block w-full mt-10 p-3 flex-shrink-0 rounded-lg bg-white border border-[#B7B7B7] focus:outline-none">
+                                    <textarea name="ucapan" rows="4" required
+                                        placeholder="Masukkan ucapan yang ingin Anda kirim"
+                                        class="block w-full mt-2 p-3 flex-shrink-0 rounded-lg bg-white border border-[#B7B7B7] focus:outline-none"></textarea>
+                                    <button id="sendGreetingBtn" type="submit"
+                                        class="bg-[#CC884D] text-white font-semibold p-4 rounded-lg w-full mt-2 flex-shrink-0 disabled:opacity-80 focus:outline-none">
                                         Kirim Ucapan
                                     </button>
                                 </div>
                                 <div class="swiper-slide !h-auto">
-                                    <div class="py-8">
-                                        <div class="bg-white rounded-lg p-3 mb-2 last:mb-0">
-                                            <p class="text-[#CC884D]">Cristiano Ronaldo</p>
-                                            <p class="text-[#615F5F]">
-                                                Selamat atas pernikahannya! Semoga menjadi keluarga yang sakinah
-                                                mawaddah
-                                                warrahmah.
-                                            </p>
+                                    <div id="greetingListWrapper" class="py-8">
+                                        <div class="bg-gray-100 rounded-lg h-28 mb-2 last:mb-0 animate-pulse">
                                         </div>
-                                        <div class="bg-white rounded-lg p-3 mb-2 last:mb-0">
-                                            <p class="text-[#CC884D]">Cristiano Ronaldo</p>
-                                            <p class="text-[#615F5F]">
-                                                Selamat atas pernikahannya! Semoga menjadi keluarga yang sakinah
-                                                mawaddah
-                                                warrahmah.
-                                            </p>
+                                        <div class="bg-gray-100 rounded-lg h-28 mb-2 last:mb-0 animate-pulse">
                                         </div>
-                                        <div class="bg-white rounded-lg p-3 mb-2 last:mb-0">
-                                            <p class="text-[#CC884D]">Cristiano Ronaldo</p>
-                                            <p class="text-[#615F5F]">
-                                                Selamat atas pernikahannya! Semoga menjadi keluarga yang sakinah
-                                                mawaddah
-                                                warrahmah.
-                                            </p>
-                                        </div>
-                                        <div class="bg-white rounded-lg p-3 mb-2 last:mb-0">
-                                            <p class="text-[#CC884D]">Cristiano Ronaldo</p>
-                                            <p class="text-[#615F5F]">
-                                                Selamat atas pernikahannya! Semoga menjadi keluarga yang sakinah
-                                                mawaddah
-                                                warrahmah.
-                                            </p>
-                                        </div>
-                                        <div class="bg-white rounded-lg p-3 mb-2 last:mb-0">
-                                            <p class="text-[#CC884D]">Cristiano Ronaldo</p>
-                                            <p class="text-[#615F5F]">
-                                                Selamat atas pernikahannya! Semoga menjadi keluarga yang sakinah
-                                                mawaddah
-                                                warrahmah.
-                                            </p>
+                                        <div class="bg-gray-100 rounded-lg h-28 mb-2 last:mb-0 animate-pulse">
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
-                    </div>
-                    <div
-                        class="absolute z-50 inset-x-0 bottom-0 h-20 bg-gradient-to-b from-[#621C1C]/0 to-[#621C1C]/100">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <button id="discButton" class="fixed bottom-4 left-4 w-14 outline-none z-40">
+        <img src="./img/disc.png" alt="Disc" class="w-full" />
+    </button>
+    <audio id="bg-song" src="./bg-song.mp3" loop="true"></audio>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
+        const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxrYQz9qYcD7KICVTyKG3J5bOnEyuglQx8pHCFGbOSRlE3lSTqnvQBvujIZrnXL8wIq/exec';
+
         const swiper = new Swiper(".main-swiper", {
             effect: "cards",
             grabCursor: true,
+        });
+
+        const giftParentSwiper = new Swiper(".gift-parent-swiper", {
+            direction: "vertical",
+            slidesPerView: "auto",
+            freeMode: true,
         });
 
         const greetingParentSwiper = new Swiper(".greeting-parent-swiper", {
@@ -185,17 +218,96 @@
             freeMode: true,
         });
 
-        const greetingSwiper = new Swiper(".greeting-swiper", {
-            direction: "vertical",
-            slidesPerView: "auto",
-            spaceBetween: 8,
-            freeMode: true,
-            loop: true,
-            autoplay: {
-                delay: 2000,
-                disableOnInteraction: false,
-            },
+        const getGreetings = async () => {
+            const res = await fetch(SHEET_URL + '?action=get_all_greetings')
+            const resJson = await res.json();
+            return resJson.data
+        }
+
+        const greetingTemplate = ({ nama, ucapan }) => (
+            `<div class="bg-white rounded-lg p-3 mb-2 last:mb-0">
+                <p class="text-[#CC884D]">${nama}</p>
+                <p class="text-[#615F5F] whitespace-pre-wrap">${ucapan}</p>
+            </div>`
+        )
+
+        const fetchAndRenderGreetings = async () => {
+            const greetings = await getGreetings();
+            document.getElementById('greetingListWrapper').innerHTML = greetings.map(greetingTemplate).join('');
+            greetingParentSwiper.update();
+        }
+
+        document.getElementById('greetingForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const sendGreetingBtn = document.getElementById('sendGreetingBtn');
+
+            sendGreetingBtn.innerText = 'Sedang mengirim ucapan...';
+            sendGreetingBtn.setAttribute('disabled', true);
+            fetch(SHEET_URL, {
+                method: "POST",
+                body: new FormData(this),
+            })
+                .then((res) => res.json())
+                .then(() => {
+                    document.querySelector('input[name=nama]').value = '';
+                    document.querySelector('textarea[name=ucapan]').value = '';
+                    return fetchAndRenderGreetings();
+                })
+                .catch((e) => {
+                    console.log(e.message);
+                })
+                .finally((e) => {
+                    sendGreetingBtn.innerText = 'Kirim Ucapan';
+                    sendGreetingBtn.removeAttribute('disabled');
+                });
         });
+
+        const discButton = document.getElementById('discButton');
+        const audio = document.querySelector("audio");
+
+        discButton?.addEventListener("click", function () {
+            if (audio.paused) {
+                discButton.classList.add("animate-spin-slow");
+                audio.play();
+            } else {
+                discButton.classList.remove("animate-spin-slow");
+                audio.pause();
+            }
+        });
+
+        document.addEventListener('visibilitychange', function () {
+            if (document.visibilityState !== 'visible') {
+                discButton.classList.remove("animate-spin-slow");
+                audio.pause();
+            }
+        });
+
+        window.copyToClipboard = (
+            event,
+            textToCopy,
+            textBeforeCopy,
+            textAfterCopy,
+            classNamesAfterCopy
+        ) => {
+            navigator.clipboard.writeText(textToCopy || event.dataset.copy);
+
+            event.innerText = textAfterCopy;
+
+            classNamesAfterCopy.forEach((className) => {
+                event.classList.add(className);
+            });
+
+            setTimeout(() => {
+                classNamesAfterCopy.forEach((className) => {
+                    event.classList.remove(className);
+                });
+
+                event.innerText = textBeforeCopy;
+            }, 2000);
+        };
+
+        fetchAndRenderGreetings();
     </script>
 </body>
 

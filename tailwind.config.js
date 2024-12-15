@@ -43,6 +43,7 @@ module.exports = {
       animation: {
         wiggle: "wiggle 3s ease-in-out infinite",
         "swipe-left": "swipe-left 3s ease-in-out infinite",
+        "spin-slow": "spin 6s linear infinite",
       },
     },
   },
